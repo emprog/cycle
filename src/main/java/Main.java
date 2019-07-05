@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         // 1. for
-
+/*
         for (int i = 100; i > 0; i = i - 10) {
             System.out.println(i);
         }
@@ -55,12 +55,12 @@ public class Main {
             }
             System.out.println();
         }
-
+*/
 //endregion
 
 //region Квадрат2
 
-        System.out.println();
+/*        System.out.println();
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
@@ -73,12 +73,12 @@ public class Main {
             }
             System.out.println();
         }
-
+*/
 //endregion
 
 //region Квадрат3
 
-        System.out.println();
+/*        System.out.println();
 
         for (int i = 0; i < 100; i++) {
             for (int j = 0; j < 100; j++) {
@@ -91,7 +91,7 @@ public class Main {
             }
             System.out.println();
         }
-
+*/
 //endregion
 
 
@@ -134,25 +134,25 @@ public class Main {
 
         System.out.println();
 
-//        int massiv[];
-//        massiv = new int[5];
-//        massiv[0] = 10;
-//        massiv[1] = 20;
-//        massiv[2] = 30;
-//        massiv[3] = 40;
-//        massiv[4] = 50;
+//        int sypper[];
+//        sypper = new int[5];
+//        sypper[0] = 10;
+//        sypper[1] = 20;
+//        sypper[2] = 30;
+//        sypper[3] = 40;
+//        sypper[4] = 50;
 
-//        System.out.println(massiv[3]);
+//        System.out.println(sypper[3]);
 
-//        massiv[3] = 100;
+//        sypper[3] = 100;
 
-//        System.out.println(massiv[3]);
+//        System.out.println(sypper[3]);
 
 
-        int massiv[] = new int[] {0, -2, 30, 45, 526, 17, 70, 80, 90, -2147483647};
+/*        int sypper[] = new int[] {0, -2, 30, 45, 526, 17, 70, 80, 90, -2147483647};
 
         for(int i = 0; i < 10; i++) {
-            System.out.print(massiv[i] + " ");
+            System.out.print(sypper[i] + " ");
         }
 
 
@@ -200,12 +200,30 @@ public class Main {
             System.out.println();
         }
 
+ */
 
 
         //endregion
 
+        String[] week = new String[7];
+        week[0] = "Sunday";
+        week[1] = "Monday";
+        week[2] = "Tuesday";
+        week[3] = "Wednesday";
+        week[4] = "Thursday";
+        week[5] = "Friday";
+        week[6] = "Saturday";
+        for (int i = 0; i < 7; i++) {
+            System.out.println(week[i]);
+        }
 
+        String[] weeK = new String[]{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+        for (int i = 0; i < 7; i++) {
+            System.out.print(weeK[i] + " ");
+        }
+        String[] wЕЕк = new String[]{"Saturday", "Friday", "Thursday", "Wednesday", "Tuesday", "Monday", "Sunday"};
+        for (int i = 0; i < 7; i++) {
+            System.out.print(wЕЕк[i] + " ");
+        }
     }
-
-
 }
