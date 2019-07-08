@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         // 1. for
-/*
-        for (int i = 100; i > 0; i = i - 10) {
+
+/*        for (int i = 100; i > 0; i = i - 10) {
             System.out.println(i);
         }
 
@@ -55,12 +55,12 @@ public class Main {
             }
             System.out.println();
         }
-*/
+
 //endregion
 
 //region Квадрат2
 
-/*        System.out.println();
+       System.out.println();
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
@@ -73,12 +73,12 @@ public class Main {
             }
             System.out.println();
         }
-*/
+
 //endregion
 
 //region Квадрат3
 
-/*        System.out.println();
+        System.out.println();
 
         for (int i = 0; i < 100; i++) {
             for (int j = 0; j < 100; j++) {
@@ -91,21 +91,21 @@ public class Main {
             }
             System.out.println();
         }
-*/
+
 //endregion
 
 
-/*        System.out.println();
+        System.out.println();
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                     System.out.print(j + " ");
             }
             System.out.println();
-        }*/
+        }
 
 
-  /*      Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.print("Input name: ");
         String name = in.nextLine();
         System.out.print("Input age: ");
@@ -114,7 +114,7 @@ public class Main {
         float height = in.nextFloat();
         System.out.printf("Name: %s  Age: %d  Height: %.2f \n", name, age, height);
         in.close();
-   */
+*/
 
 
         //region Массивы
@@ -129,7 +129,7 @@ public class Main {
         System.out.println(twenty);
         System.out.println(thirty);
         System.out.println(forty);
-        System.out.println(fifty);*/
+        System.out.println(fifty);
 
 
         System.out.println();
@@ -149,7 +149,7 @@ public class Main {
 //        System.out.println(sypper[3]);
 
 
-/*        int sypper[] = new int[] {0, -2, 30, 45, 526, 17, 70, 80, 90, -2147483647};
+        int sypper[] = new int[] {0, -2, 30, 45, 526, 17, 70, 80, 90, -2147483647};
 
         for(int i = 0; i < 10; i++) {
             System.out.print(sypper[i] + " ");
@@ -199,11 +199,10 @@ public class Main {
             }
             System.out.println();
         }
+*/
 
- */
 
-
-        //endregion
+        //endregion for(int i = 0; i < 10; i++)
 
         String[] week = new String[7];
         week[0] = "Sunday";
@@ -221,9 +220,18 @@ public class Main {
         for (int i = 0; i < 7; i++) {
             System.out.print(weeK[i] + " ");
         }
+        System.out.println();
+
         String[] wЕЕк = new String[]{"Saturday", "Friday", "Thursday", "Wednesday", "Tuesday", "Monday", "Sunday"};
         for (int i = 0; i < 7; i++) {
             System.out.print(wЕЕк[i] + " ");
         }
+
+        System.out.println();
+
+        for (int i = 0; i < 50; i = i + 5) {
+            System.out.print(i + " ");
+        }
+
     }
 }
