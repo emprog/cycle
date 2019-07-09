@@ -220,11 +220,11 @@ public class Main {
         for (int i = 0; i < 7; i++) {
             System.out.print(weeK[i] + " ");
         }
+
         System.out.println();
 
-        String[] wЕЕк = new String[]{"Saturday", "Friday", "Thursday", "Wednesday", "Tuesday", "Monday", "Sunday"};
-        for (int i = 0; i < 7; i++) {
-            System.out.print(wЕЕк[i] + " ");
+        for (int i = 6; i >= 0; i--) {
+            System.out.print(weeK[i] + " ");
         }
 
         System.out.println();
@@ -233,5 +233,33 @@ public class Main {
             System.out.print(i + " ");
         }
 
+        System.out.println();
+        
+        int rezult = 1;
+        int[] digitMultFuve = new int[10];
+        for (int i = 0; i < 10; i++) {
+            digitMultFuve[i] = rezult;
+            rezult = rezult * 5;
+        }
+
+        for(int i = 0; i < 10; i++) {
+            System.out.print(digitMultFuve[i] + " ");
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
