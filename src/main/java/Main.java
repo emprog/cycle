@@ -234,7 +234,7 @@ public class Main {
         }
 
         System.out.println();
-        
+
         int rezult = 1;
         int[] digitMultFuve = new int[10];
         for (int i = 0; i < 10; i++) {
@@ -242,13 +242,27 @@ public class Main {
             rezult = rezult * 5;
         }
 
-        for(int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.print(digitMultFuve[i] + " ");
+        }
+
+        System.out.println();
+
+//задание номер три
+        int[] massSortDigit = new int[20];
+        for (int i = 0; i < 20; i++) {
+            if((i + 1)% 2 == 0) {
+                massSortDigit[i] = 2;
+            } else {
+                massSortDigit[i] = 5;
+            }
+
+        }
+        for (int i = 0; i < 20; i++) {
+            System.out.print(massSortDigit[i] + " ");
         }
     }
 }
-
-
 
 
 
